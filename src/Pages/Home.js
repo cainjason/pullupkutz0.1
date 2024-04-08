@@ -1,9 +1,10 @@
+import Header from "../components/Header";
+
 function HomePage() {
   return (
     <main>
-      <header>I'm am a header</header>
-      <body></body>
-      <footer></footer>
+      <Header />
+      <h2>Home Page</h2>
     </main>
   );
 }
