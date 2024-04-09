@@ -8,7 +8,6 @@ import "./App.css";
 function App() {
   return (
     <div className="app">
-      Let's build!
       <BrowserRouter>
         <Routes>
           <Route path="/home" element={<Home />} />
