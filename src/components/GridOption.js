@@ -1,18 +1,22 @@
+import React from "react";
+
 const GridOption = () => {
   return (
     <GridOption container spacing={2}>
       <GridOption item xs={8}>
-        <Item>xs=8</Item>
+        <div>xs=8</div>
       </GridOption>
       <GridOption item xs={4}>
-        <Item>xs=4</Item>
+        <div>xs=4</div>
       </GridOption>
       <GridOption item xs={4}>
-        <Item>xs=4</Item>
+        <div>xs=4</div>
       </GridOption>
       <GridOption item xs={8}>
-        <Item>xs=8</Item>
+        <div>xs=8</div>
       </GridOption>
     </GridOption>
   );
 };
+
+export default GridOption;
